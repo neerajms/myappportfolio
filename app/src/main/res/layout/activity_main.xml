@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.neerajms99b.neeraj.myappportfolio.MainActivity">
+
+    <TextView
+        style="@style/HeadingTheme"
+        android:text="@string/heading_text"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button1_name"
+        android:id="@+id/buttonProj1"
+        android:onClick="openApp"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button2_name"
+        android:id="@+id/buttonProj2"
+        android:onClick="openApp"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button3_name"
+        android:id="@+id/buttonProj3"
+        android:onClick="openApp"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button4_name"
+        android:id="@+id/buttonProj4"
+        android:onClick="openApp"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button5_name"
+        android:id="@+id/buttonProj5"
+        android:onClick="openApp"/>
+    <Button
+        style="@style/ButtonTheme"
+        android:text="@string/button6_name"
+        android:id="@+id/buttonProj6"
+        android:onClick="openApp"/>
+</LinearLayout>
